@@ -8,6 +8,11 @@ from flask_jwt_extended import create_access_token
 auth_bp = Blueprint("auth", __name__, url_prefix="/auth")
 
 
+@auth_bp.route("/")
+def health():
+    return {"status": "running"}
+
+
 @auth_bp.route("/register", methods=["POST"])
 def register():
 
