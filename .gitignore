@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+virtualenv/
+virtual-env/
+.env/
+.envrc
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# Flask
+instance/
+.webassets-cache
+
+# Database files (if local)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# pytest
+.pytest_cache/
+
+# Uploaded files
+uploads/
+
+# Node (if React frontend inside same repo)
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
